@@ -88,6 +88,9 @@ There are 3 data or tables
 |  LONGITUDE  | Longitude of the Airport    |
 
 ## Data Preperation
+We can see that the data is already splitted into 3 file.
+
+![alt text](https://github.com/wildangbudhi/BIG-Data-Analysis-with-KNIM-Part-1/screenshot/Data Preparation - Split Data.png)
 
 ## Modeling
 
