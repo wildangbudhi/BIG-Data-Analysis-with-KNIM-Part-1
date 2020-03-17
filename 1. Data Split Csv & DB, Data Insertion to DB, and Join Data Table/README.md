@@ -1,4 +1,4 @@
-# BigData Analysis with KNIM - Part 1
+# Data Split Csv & DB, Data Insertion to DB, and Join Data Table
 
 ## Business Undestanding
 This dataset are consist of 3 table of data:
