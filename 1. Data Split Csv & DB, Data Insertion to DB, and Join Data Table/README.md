@@ -90,25 +90,25 @@ There are 3 data or tables
 ## Data Preperation
 We can see that the data is already splitted into 3 file.
 
-![Data Preparation - Split Data](https://github.com/wildangbudhi/BIG-Data-Analysis-with-KNIM-Part-1/blob/master/screenshot/Data%20Preparation%20-%20Split%20Data.PNG)
+![Data Preparation - Split Data](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/1.%20Data%20Split%20Csv%20%26%20DB%2C%20Data%20Insertion%20to%20DB%2C%20and%20Join%20Data%20Table/screenshot/Data%20Preparation%20-%20Split%20Data.PNG)
 
 And we just need to move one data to DB
 
-![Data Preparation - Save One Data in DB](https://github.com/wildangbudhi/BIG-Data-Analysis-with-KNIM-Part-1/blob/master/screenshot/Data%20Preparation%20-%20Save%20One%20Data%20in%20DB.PNG)
+![Data Preparation - Save One Data in DB](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/1.%20Data%20Split%20Csv%20%26%20DB%2C%20Data%20Insertion%20to%20DB%2C%20and%20Join%20Data%20Table/screenshot/Data%20Preparation%20-%20Save%20One%20Data%20in%20DB.PNG)
 
 ## Modeling
 
-- Read Fligts Data fron DB
+- Read Fligts Data from DB
 
-    ![Modelling - Read Data from DB](https://github.com/wildangbudhi/BIG-Data-Analysis-with-KNIM-Part-1/blob/master/screenshot/Modelling%20-%20Read%20Data%20from%20DB.PNG)
+    ![Modelling - Read Data from DB](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/1.%20Data%20Split%20Csv%20%26%20DB%2C%20Data%20Insertion%20to%20DB%2C%20and%20Join%20Data%20Table/screenshot/Modelling%20-%20Read%20Data%20from%20DB.PNG)
 
 - Read AIRLINES & AIRPORTS Data from CSV
 
-    ![Modelling - Read Data from CSV]https://github.com/wildangbudhi/BIG-Data-Analysis-with-KNIM-Part-1/blob/master/screenshot/Modelling%20-%20Read%20Data%20from%20DB.PNG)
+    ![Modelling - Read Data from CSV](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/1.%20Data%20Split%20Csv%20%26%20DB%2C%20Data%20Insertion%20to%20DB%2C%20and%20Join%20Data%20Table/screenshot/Modelling%20-%20Read%20Data%20from%20CSV.PNG)
 
 - Joining Table
 
-    ![Modelling - Join Operation](https://github.com/wildangbudhi/BIG-Data-Analysis-with-KNIM-Part-1/blob/master/screenshot/Modelling%20-%20Join%20Operation.PNG)
+    ![Modelling - Join Operation](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/1.%20Data%20Split%20Csv%20%26%20DB%2C%20Data%20Insertion%20to%20DB%2C%20and%20Join%20Data%20Table/screenshot/Modelling%20-%20Join%20Operation.PNG)
 
 
 ## Evaluation
@@ -117,4 +117,4 @@ Column in AIRLINES and AIRPORTS data is available in Joined Table
 ## Deployment
 The last is we need top deploy the data in both DB and CSV FILE
 
-![Deployment](https://github.com/wildangbudhi/BIG-Data-Analysis-with-KNIM-Part-1/blob/master/screenshot/Deployment.PNG)
+![Deployment](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/1.%20Data%20Split%20Csv%20%26%20DB%2C%20Data%20Insertion%20to%20DB%2C%20and%20Join%20Data%20Table/screenshot/Deployment.PNG)
