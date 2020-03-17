@@ -1,0 +1,1 @@
+https://api.hub.knime.com/repository//Users/knime/Education/04%20KNIME%20Big%20Data%20Course/1_DB/1_Data/newCensus.sqlite:data
