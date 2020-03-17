@@ -17,3 +17,5 @@ Here the solution for this question that we provide
     - After we select the table, we are asked to remove all PUMA* and PWGTP* Column in 05111740000184_ss13hme Table. We can use DB Colum Filter to remove those all column that we asked to.
 
 1. **Do Inner Join in Both Table on SERIALNO Column**
+
+    ![Join Table on SERIALNO Column](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/2.%20DB%20Processing%20-%20Missing%20Value%20Strategy/2.%20In%20DB%20Processing/Screenshoot/1%20Join%20Table%20on%20SERIALNO.png)
