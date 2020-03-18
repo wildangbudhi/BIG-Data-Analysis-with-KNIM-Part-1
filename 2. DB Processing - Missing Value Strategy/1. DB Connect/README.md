@@ -10,12 +10,12 @@ Here is the solution that i provide to Connect to Database or DB using KNIME:
 
 1. **Connect to DB using DB Connector**
 
-    Firstly we need to init an instance of Database Connection, in this case the DB is using SQLite so we can use SQLite Connector.
+    Firstly we need to init an instance of Database Connection, in this case the DB is using SQLite so we can use ```SQLite Connector```.
 
 2. **Select Table using Table Selector**
 
-    We need to select particular table. To select table we can use Table Selector for all kind of DB Instance.
+    We need to select particular table. To select table we can use ```Table Selector``` for all kind of DB Instance.
 
 3. **Read Selected Table using DB Reader**
 
-    Then we need to fetch the data from Selected Table. Here we can user DB Reader to get data From Table Selector.
+    Then we need to fetch the data from Selected Table. Here we can user ```DB Reader``` to get data From Table Selector.
