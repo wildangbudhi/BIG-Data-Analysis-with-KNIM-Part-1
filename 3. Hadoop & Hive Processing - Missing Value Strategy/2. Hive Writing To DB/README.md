@@ -48,3 +48,7 @@ Here the solution for this question that we provide
 6. **Write Back to Hive**
 
     ![Write Back to Hive](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/3.%20Hadoop%20%26%20Hive%20Processing%20-%20Missing%20Value%20Strategy/2.%20Hive%20Writing%20To%20DB/Screenshoot/6%20Write%20Back%20to%20Hive.png)
+
+    - First, in this question we asked to combine the data which COW Column is Not NULL with the result of Predictor. We can use ```Concatenate``` to concat the data.
+    - After that we need to create new table in HDFS using Hive to store the data. We can use ```DB Table Creator```.
+    - After the Table is created we can load the data to HDFS. We can use ```DB Loader```.
