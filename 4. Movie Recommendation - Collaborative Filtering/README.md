@@ -69,4 +69,8 @@ Because the data is massive so we need to make BigData Environtment to save the 
 
 ## Evaluation
 
+![Evaluation](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/4.%20Movie%20Recommendation%20-%20Collaborative%20Filtering/Screenshoot/%5BEvaluation%5D%20Full%20Solution.png)
+
+
+
 ## Deployment
