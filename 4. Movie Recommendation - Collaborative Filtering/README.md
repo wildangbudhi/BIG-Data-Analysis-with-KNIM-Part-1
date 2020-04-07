@@ -62,6 +62,11 @@ Because the data is massive so we need to make BigData Environtment to save the 
 
 ## Modeling
 
+![Modeling](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/4.%20Movie%20Recommendation%20-%20Collaborative%20Filtering/Screenshoot/%5BModeling%5D%20Full%20Solution.png)
+
+- First we need to combine tha data from ```ratings.csv``` data and 20 Data from User Input. Considering those 2 data is in Spark Dataframe format we can use ```Spark Concatenate``` Module.
+- Then we need to train a model using ```Spark Collaborative Filtering Learner (MDLib)``` Module.
+
 ## Evaluation
 
 ## Deployment
