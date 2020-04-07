@@ -1,6 +1,6 @@
 # 4. Movie Recommendation - Collaborative Filtering
 
-<!-- ![Full Solution](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/3.%20Hadoop%20%26%20Hive%20Processing%20-%20Missing%20Value%20Strategy/2.%20Hive%20Writing%20To%20DB/Screenshoot/Full%20Question.png) -->
+![Full Solution](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/4.%20Movie%20Recommendation%20-%20Collaborative%20Filtering/Screenshoot/Full%20Solution.png)
 
 ## Business Undestanding
 
