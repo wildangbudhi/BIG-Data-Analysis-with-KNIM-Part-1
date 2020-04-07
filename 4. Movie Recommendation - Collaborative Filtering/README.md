@@ -12,9 +12,28 @@ This dataset are consist of 2 table of data:
 
 In this task we asked to Make TOP 20 Recommendation Base on Ratings. Ratings of Movie obtained from table ```ratings.csv``` and some input rating from User ( Using KNIME )
 
-## Data Undersatnding
+## Data Understanding
+
+There are 2 data or tables
+
+### MOVIES ( movies.csv )
+| Column Name |          Description          |
+|:-----------:|:-----------------------------:|
+| movieId     | ID or Identifier of the movie |
+| title       | Title of the movie            |
+| genres      | List of Genre from the movie  |
+
+### RATINGS ( ratings.csv )
+| Column Name |                 Description                 |
+|:-----------:|:-------------------------------------------:|
+| userId      | ID of user that gives the movie rating      |
+| movieId     | ID or Identifier of the movie in movies.csv |
+| rating      | Rating of movie that given from user        |
+| timestamp   | Timestamp when the rating is written        |
 
 ## Data Preperation
+
+## Modeling
 
 ## Evaluation
 
