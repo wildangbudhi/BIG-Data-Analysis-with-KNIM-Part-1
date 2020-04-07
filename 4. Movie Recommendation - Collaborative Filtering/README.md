@@ -76,3 +76,15 @@ Because the data is massive so we need to make BigData Environtment to save the 
 - Then to calculate the score we can use ```Spark Numeric Scorer``` Module.
 
 ## Deployment
+
+![Deployment](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/4.%20Movie%20Recommendation%20-%20Collaborative%20Filtering/Screenshoot/%5BDeployment%5D%20Full%20Solution.png)
+
+- First we need to predict the testing data using ```Spark Preditor (MDLib)``` Module. Result of prediction shown bellow <br />
+![Prediction Result](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/4.%20Movie%20Recommendation%20-%20Collaborative%20Filtering/Screenshoot/%5BDeployment%5D%20Prediction%20Result.png)
+- Because the data is in Spark Dataframe and we want to do some low processing and save it in Database we neet to transform the data into Ordinary Table. We can use ```Spark to Table``` Module.
+- After that we should sort and take TOP 20 Data using Custom Module called ```TOP 20 recommended movies``` Module. 
+- We should remove the rating column and rename Prediction column to reting. We can use Custom Column called ```Display Recommendation``` Module. The result shown bellow.<br />
+![Top 20 Recommendation](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/4.%20Movie%20Recommendation%20-%20Collaborative%20Filtering/Screenshoot/%5BDeployment%5D%20TOP%2020%20Recomendation.png)
+- Considering MongoDB is Database with Document Base using JSON format we need to transform table into JSON. We can use ```Table to JSON``` Module.
+- Now the data is in JSON format. We need to write it down to MongoDB. We can use ```MongoDB Writer``` Module. And the result shown using MongoCompass :
+![MongoDB](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/4.%20Movie%20Recommendation%20-%20Collaborative%20Filtering/Screenshoot/%5BDeployment%5D%20MongoDB.png)
