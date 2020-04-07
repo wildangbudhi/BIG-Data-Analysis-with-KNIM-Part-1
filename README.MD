@@ -3,3 +3,4 @@
 1. Data Split Csv & DB, Data Insertion to DB, and Join Data Table
 2. DB Processing - Missing Value Strategy
 3. Hadoop & Hive Processing - Missing Value Strategy
+4. Movie Recommendation - Collaborative Filtering
