@@ -71,6 +71,8 @@ Because the data is massive so we need to make BigData Environtment to save the 
 
 ![Evaluation](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/4.%20Movie%20Recommendation%20-%20Collaborative%20Filtering/Screenshoot/%5BEvaluation%5D%20Full%20Solution.png)
 
-
+- We need to make prediction using 20% data that we prepared to be used in Testing. We can use ```Spark Predcitor``` Module.
+- After that we need to remove all data with Missing Value in Prediction Column. We can use ```Spark Missing Value``` Module
+- Then to calculate the score we can use ```Spark Numeric Scorer``` Module.
 
 ## Deployment
