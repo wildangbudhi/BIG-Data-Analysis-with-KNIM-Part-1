@@ -4,3 +4,5 @@
 2. DB Processing - Missing Value Strategy
 3. Hadoop & Hive Processing - Missing Value Strategy
 4. Movie Recommendation - Collaborative Filtering
+5. Mass Learning Event Prediction MLlib to PMML
+6. PMML to Spark Comprehensive Mode Learning Mass Prediction
