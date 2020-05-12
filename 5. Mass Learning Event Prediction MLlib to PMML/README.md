@@ -32,7 +32,7 @@ In this case given data of iris flower containing sepal size, petal size, and th
 
 We need to read data to Evaluation the model, in this case the data format was in csv format, so we can read the data using ```File Reader``` Module.
 
-### 1. Data Preparation for Deployment Model
+### 3. Data Preparation for Deployment Model
 
 ![Data Preparation - Deployment](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/5.%20Mass%20Learning%20Event%20Prediction%20MLlib%20to%20PMML/Screenshoot/Data%20Preparation%20-%20Deployment.png)
 
