@@ -6,3 +6,4 @@
 4. Movie Recommendation - Collaborative Filtering
 5. Mass Learning Event Prediction MLlib to PMML
 6. PMML to Spark Comprehensive Mode Learning Mass Prediction
+7. Big Data Irish Meter on Spark Only
