@@ -271,4 +271,16 @@ In this problem we wan to use 2 method, PCA and k-Means. Why do we need PCA ? PC
 
 ## Evaluation
 
+![Evaluation](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/7.%20Big%20Data%20Irish%20Meter%20on%20Spark%20Only/Screenshoot/Evaluation.png)
+
+In this we want to Plot the data in Graph with different color each cluster and Show in table too.
+1. First we need to convert all data which in Number Data Type to String. We can use ```Number to String``` module.
+2. Add Color for each Cluster. We can use ```Color Manager``` Module.
+3. Show the data in Grah using ```Scatter Plot``` Module.
+4. Show the data in Table using ```Table View``` Module.
+
+and the result shown bellow :
+
+![Evaluation - Plot](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/7.%20Big%20Data%20Irish%20Meter%20on%20Spark%20Only/Screenshoot/Evaluation%20-%20Plot.png)
+
 ## Deployment
