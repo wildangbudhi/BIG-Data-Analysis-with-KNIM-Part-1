@@ -257,6 +257,18 @@ and the result shown bellow :
 
 ## Modeling
 
+![Modeling](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/7.%20Big%20Data%20Irish%20Meter%20on%20Spark%20Only/Screenshoot/Modeling.png)
+
+In this problem we wan to use 2 method, PCA and k-Means. Why do we need PCA ? PCA or Principle Component Analisys, common to used as Data Dimension Reduction, used to find New Axis of Data with Maximum Variance, and Find Different Data Point of View. So we can get more useful information from PCA result. And k-Means algorith used to get the Cluster of the Data only.
+
+1. Considering we will use PCA method that needs the input data has minimum range, so we need to Normalize the data. We can use ```Spark Normalizer```.
+2. Apply PCA Algorithm to get more information. We can use ```Spark PCA``` module, with minimum information fraction to preserve setted 96% and exlcude ```meterID``` column.
+3. Apply k-Means Algorithm to get the cluster of the Data. We can use ```Spark k-Means``` module using ```Spark Normalizer``` output as input, set the number of cluster to 3, and exlude ```metedID``` column.
+4. Remembering the goals of Applyment of k-Means is to get the Cluster of the Data. Than we need to remove all the column Except ```meterID``` column as the data id and ```Cluster``` column as cluster of the data. We can use ```Spark Column Filter``` module.
+5. Than we need to join the result of PCA with the Cluster obtained from k-Means. We can use ```Spark Joiner``` Module.`
+6. Considering in the Evaluation Step we want to Plot the data, we need to convert the data from Spart Dataframe to Table. We can use ```Spark to Table``` Module.
+7. Remembering the data is in Normalized data, we want to denormalize the data to get the actual data with original range. We can use the output of ```Spark Normalizer``` which give a matrix of Normalization Factor as input in ```Denormalizer (PMML)``` to Denormalize the data.
+
 ## Evaluation
 
 ## Deployment
