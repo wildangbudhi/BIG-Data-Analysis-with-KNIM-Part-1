@@ -284,3 +284,13 @@ and the result shown bellow :
 ![Evaluation - Plot](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/7.%20Big%20Data%20Irish%20Meter%20on%20Spark%20Only/Screenshoot/Evaluation%20-%20Plot.png)
 
 ## Deployment
+
+![Deployment 1](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/7.%20Big%20Data%20Irish%20Meter%20on%20Spark%20Only/Screenshoot/Deployment%201.png)
+
+![Deployment 2](https://github.com/wildangbudhi/BIG-Data-with-KNIM/blob/master/7.%20Big%20Data%20Irish%20Meter%20on%20Spark%20Only/Screenshoot/Deployment%202.png)
+
+We want to save the result in HDFS back in Hive Table format and Parquet Format.
+1. Considering the Result of Modeling Step is in Table Format, then we need to Convert it back to Spark Dataframe. We can use ```Table to Spark``` Module.
+2. Considering when we write data to Hive table we can't have column name with space. then we need to rename all column name with space to remove the space. We can user ```Spark Column Rename``` Module.
+3. Write it to Have Table using ```Spark to Hive``` Module.
+4. Write it to Parquet using ```Spark to Parquet``` Module.
